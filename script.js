@@ -5,7 +5,63 @@
 // Выдать ответ пользователю каким количеством купюр номинала можно выдать сумму купюрами 500 200 100 50
 
 // var moneyDraw = +process.argv[2];
+// var ostatok = moneyDraw % 50;
 
+
+// *********************** V 2
+
+
+// if (moneyDraw >= 50) {
+//     if ((moneyDraw >= 500) && (moneyDraw % 500 == 0)) {
+//         countNote = moneyDraw / 500;
+//         console.log('Можно снять ' + moneyDraw + ' купюрами по 500 в количестве ' + countNote + '.');
+//     } else if ((moneyDraw >= 500) && (ostatok > 0)) {
+//         countNote = moneyDraw / 500;
+//         c = Math.floor(countNote);
+//         allowToDraw = 500 * c;
+//         ostatok = moneyDraw - allowToDraw;
+//         console.log('Можно снять ' + allowToDraw + ' купюрами по 500 в количестве ' + c + '.');
+//         console.log('Остаток на счету: ' + ostatok);
+//         // 200
+//     } else if ((moneyDraw >= 200) && (moneyDraw % 200 == 0)) {
+//         countNote = moneyDraw / 200;
+//         console.log('Можно снять ' + moneyDraw + ' купюрами по 200 в количестве ' + countNote + '.');
+//     } else if ((moneyDraw >= 200) && (ostatok > 0)) {
+//         countNote = moneyDraw / 200;
+//         c = Math.floor(countNote);
+//         allowToDraw = 200 * c;
+//         ostatok = moneyDraw - allowToDraw;
+//         console.log('Можно снять ' + allowToDraw + ' купюрами по 200 в количестве ' + c + '.');
+//         console.log('Остаток на счету: ' + ostatok);
+//         // 100
+//     } else if ((moneyDraw >= 100) && (moneyDraw % 100 == 0)) {
+//         countNote = moneyDraw / 100;
+//         console.log('Можно снять ' + moneyDraw + ' купюрами по 100 в количестве ' + countNote + '.');
+//     } else if ((moneyDraw >= 100) && (ostatok > 0)) {
+//         countNote = moneyDraw / 100;
+//         c = Math.floor(countNote);
+//         allowToDraw = 100 * c;
+//         ostatok = moneyDraw - allowToDraw;
+//         console.log('Можно снять ' + allowToDraw + ' купюрами по 100 в количестве ' + c + '.');
+//         console.log('Остаток на счету: ' + ostatok);
+//         // 50
+//     } else if ((moneyDraw >= 50) && (moneyDraw % 50 == 0)) {
+//         countNote = moneyDraw / 50;
+//         console.log('Можно снять ' + moneyDraw + ' купюрами по 50 в количестве ' + countNote + '.');
+//     } else if ((moneyDraw >= 50) && (ostatok > 0)) {
+//         countNote = moneyDraw / 50;
+//         c = Math.floor(countNote);
+//         allowToDraw = 50 * c;
+//         ostatok = moneyDraw - allowToDraw;
+//         console.log('Можно снять ' + allowToDraw + ' купюрами по 50 в количестве ' + c + '.');
+//         console.log('Остаток на счету: ' + ostatok);
+//     }
+// } else
+//     console.log('Ошибка. Доступные купюры: 50.');
+
+
+
+// *********************** V 1
 
 // if (moneyDraw >= 50) {
 //     if ((moneyDraw >= 500) && (moneyDraw % 500 == 0)) {
@@ -23,7 +79,6 @@
 //     }
 // } else
 //     console.log('Ошибка. Доступные купюры: 50.')
-
 
 
 // ********************* № 2 ПЕРИМЕТР ФИГУРЫ *********************
